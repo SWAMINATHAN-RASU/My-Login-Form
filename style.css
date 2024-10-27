@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+form{
+    border: 2px solid orange;;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 40%; top: 30%
+}
+.emailbutt, .passbutt{
+    margin: 20px;
+}
+
+
+.banner-card{
+    position: relative;
+    height: 100vh;
+}
+   
+.button{
+ margin-left: 30%;
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (min-width:350px) and (max-width:449px) 
+ {
+
+    body{
+        background-image: url(bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }    
+    form{
+        border: 2px solid orange;;
+        border-radius: 10px;
+        position: absolute;
+        top: 25%;
+        left: 15%; 
+    }
+
+    .banner-card{
+        position:relative;
+        height: 100vh;
+    }
+    .button{
+     margin-left: 30%;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+ }
+
+@media screen and (min-width:450px) and (max-width:550px) 
+ {
+    body{
+        background-image: url(bg1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    form{
+        border: 2px solid orange;;
+        border-radius: 10px;
+        position: absolute;
+        top: 27%;
+        left: 16%; 
+    }
+
+    .banner-card{
+        position:relative;
+        height: 100vh;
+    }
+    .button{
+     margin-left: 30%;
+    }
+    .bottom{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+
+
+ }
+
+
+ @media screen and (min-width:551px)  and (max-width:700px)
+ {
+    body{
+        background-image: url(bg3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ 
+     form{
+         border: 2px solid orange;;
+         border-radius: 10px;
+         position: absolute;
+         top: 25%;
+         left: 27%; 
+     }
+     
+     .banner-card{
+         position:relative;
+         height: 100vh;
+     }
+     .button{
+      margin-left: 30%;
+     }
+     .bottom{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+ 
+ 
+ }
+
+ @media screen and (min-width:701px)  and (max-width:900px)
+ {
+    body{
+        background-image: url(bg4.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+ 
+     form{
+         border: 2px solid orange;;
+         border-radius: 10px;
+         position: absolute;
+         top: 30%;
+         left: 30%; 
+     }
+     
+     .banner-card{
+         position:relative;
+         height: 100vh;
+     }
+     .button{
+      margin-left: 30%;
+     }
+     .bottom{
+         display: flex;
+         align-items: center;
+         justify-content: space-between;
+     }
+ 
+ 
+ 
+ }
+
